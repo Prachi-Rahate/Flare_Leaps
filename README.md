@@ -4,4 +4,4 @@
 3) FT & GLS:-  variations
 4) FT & GLS ver2 :- final variations + gaussian
 5) Flare_566801.ipynb :- FT and LS on file 'flare566801.fits'
-6) Download_flare_lk.ipnb :- TIC_1403938 flare plotusing lightkurve
+6) Download_flare_lk.ipnb :- TIC_1403938 flare plot using lightkurve
