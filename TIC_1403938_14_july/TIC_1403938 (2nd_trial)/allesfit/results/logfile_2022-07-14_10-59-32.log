@@ -1,0 +1,198 @@
+
+allesfitter version
+---------------------
+v1.2.9
+
+Settings:
+--------------------------
+
+user-given:                   
+companions_phot                ['b']          
+companions_rv                  []             
+inst_phot                      ['TIC_1403938']
+inst_rv                        []             
+multiprocess                   True           
+multiprocess_cores             7              
+fast_fit                       False          
+do_not_phase_fold              True           
+shift_epoch                    False          
+mcmc_nwalkers                  100            
+mcmc_total_steps               3000           
+mcmc_burn_steps                2000           
+mcmc_thin_by                   10             
+ns_modus                       dynamic        
+ns_nlive                       500            
+ns_bound                       single         
+ns_sample                      rwalk          
+ns_tol                         0.01           
+baseline_flux_TIC_1403938      hybrid_spline  
+error_flux_TIC_1403938         sample         
+N_flares                       1              
+
+automatically set:            
+time_format                    BJD_TDB        
+inst_rv2                       []             
+companions_all                 ['b']          
+inst_all                       ['TIC_1403938']
+print_progress                 True           
+inst_for_b_epoch               ['TIC_1403938']
+phase_curve                    False          
+fast_fit_width                 0.3333333333333333
+use_host_density_prior         True           
+use_tidal_eccentricity_prior   False          
+fit_ttvs                       False          
+secondary_eclipse              False          
+mcmc_pre_run_loops             0              
+mcmc_pre_run_steps             0              
+mcmc_moves                     [(<emcee.moves.de.DEMove object at 0x7fc33cdf9e50>, 1.0)]
+host_grid_TIC_1403938          default        
+b_grid_TIC_1403938             default        
+host_ld_law_TIC_1403938        None           
+b_ld_law_TIC_1403938           None           
+host_ld_space_TIC_1403938      q              
+b_ld_space_TIC_1403938         q              
+host_shape_TIC_1403938         sphere         
+b_shape_TIC_1403938            sphere         
+exact_grav                     False          
+phase_curve_style              None           
+stellar_var_flux               none           
+stellar_var_rv                 none           
+stellar_var_rv2                none           
+baseline_flux_TIC_1403938_against time           
+color_plot                     False          
+b_color                        (0.2980392156862745, 0.4470588235294118, 0.6901960784313725)
+zoom_window                    0.3333333333333333
+t_exp_TIC_1403938              None           
+t_exp_n_int_TIC_1403938        None           
+host_N_spots_TIC_1403938       0              
+b_N_spots_TIC_1403938          0              
+
+Parameters:
+--------------------------
+
+user-given:                   
+flare_tpeak_1                  0.83            free  ['uniform', 0.825, 0.875]     
+flare_fwhm_1                   0.025           free  ['uniform', 0.0, 0.04]        
+flare_ampl_1                   1.6             free  ['uniform', 1.0, 2.0]         
+ln_err_flux_TIC_1403938        -7.0            free  ['uniform', -9.0, -5.0]       
+
+automatically set:            
+b_rr                           None            set  
+b_rsuma                        None            set  
+b_cosi                         0.0             set  
+b_epoch                        0.0             set  
+b_period                       0.0             set  
+b_sbratio_TIC_1403938          0.0             set  
+b_K                            0.0             set  
+b_f_s                          0.0             set  
+b_f_c                          0.0             set  
+dil_TIC_1403938                0.0             set  
+host_ldc_u1_TIC_1403938        None            set  
+host_ldc_u2_TIC_1403938        None            set  
+host_ldc_u3_TIC_1403938        None            set  
+host_ldc_u4_TIC_1403938        None            set  
+b_ldc_u1_TIC_1403938           None            set  
+b_ldc_u2_TIC_1403938           None            set  
+b_ldc_u3_TIC_1403938           None            set  
+b_ldc_u4_TIC_1403938           None            set  
+host_ldc_q1_TIC_1403938        None            set  
+host_ldc_q2_TIC_1403938        None            set  
+host_ldc_q3_TIC_1403938        None            set  
+host_ldc_q4_TIC_1403938        None            set  
+b_ldc_q1_TIC_1403938           None            set  
+b_ldc_q2_TIC_1403938           None            set  
+b_ldc_q3_TIC_1403938           None            set  
+b_ldc_q4_TIC_1403938           None            set  
+b_a                            None            set  
+b_q                            1.0             set  
+didt_TIC_1403938               None            set  
+domdt_TIC_1403938              None            set  
+host_gdc_TIC_1403938           None            set  
+host_rotfac_TIC_1403938        1.0             set  
+host_hf_TIC_1403938            1.5             set  
+host_bfac_TIC_1403938          None            set  
+host_heat_TIC_1403938          None            set  
+host_lambda                    None            set  
+host_vsini                     None            set  
+b_gdc_TIC_1403938              None            set  
+b_rotfac_TIC_1403938           1.0             set  
+b_hf_TIC_1403938               1.5             set  
+b_bfac_TIC_1403938             None            set  
+b_heat_TIC_1403938             None            set  
+b_lambda                       None            set  
+b_vsini                        None            set  
+host_spots_TIC_1403938         None            set  
+b_spots_TIC_1403938            None            set  
+b_phase_curve_A1_TIC_1403938   None            set  
+b_phase_curve_B1_TIC_1403938   None            set  
+b_phase_curve_B1_shift_TIC_1403938 0.0             set  
+b_phase_curve_B1t_TIC_1403938  None            set  
+b_phase_curve_B1t_shift_TIC_1403938 0.0             set  
+b_phase_curve_B1r_TIC_1403938  None            set  
+b_phase_curve_B1r_shift_TIC_1403938 0.0             set  
+b_phase_curve_B2_TIC_1403938   None            set  
+b_phase_curve_B3_TIC_1403938   None            set  
+b_phase_curve_beaming_TIC_1403938 None            set  
+b_phase_curve_atmospheric_TIC_1403938 None            set  
+b_phase_curve_atmospheric_shift_TIC_1403938 0.0             set  
+b_phase_curve_atmospheric_thermal_TIC_1403938 None            set  
+b_phase_curve_atmospheric_thermal_shift_TIC_1403938 0.0             set  
+b_phase_curve_atmospheric_reflected_TIC_1403938 None            set  
+b_phase_curve_atmospheric_reflected_shift_TIC_1403938 0.0             set  
+b_phase_curve_ellipsoidal_TIC_1403938 None            set  
+b_phase_curve_ellipsoidal_2nd_TIC_1403938 None            set  
+
+External priors:
+--------------------------
+No external priors defined.
+
+ndim: 4
+
+allesfitter version
+---------------------
+v1.2.9
+
+Running MCMC...
+--------------------------
+
+Running on 7 CPUs.
+
+Running full MCMC
+
+Time taken to run 'emcee' on 7 cores is 0.04 hours
+
+Acceptance fractions:
+--------------------------
+[0.09666667 0.09       0.06       0.11666667 0.09333333 0.07666667
+ 0.1        0.10333333 0.09333333 0.08666667 0.07666667 0.07333333
+ 0.06       0.08333333 0.07333333 0.08333333 0.08333333 0.13333333
+ 0.10666667 0.09       0.09       0.06666667 0.09666667 0.10333333
+ 0.10333333 0.09       0.09666667 0.10333333 0.08666667 0.08333333
+ 0.09333333 0.14333333 0.06333333 0.09666667 0.08666667 0.07333333
+ 0.07333333 0.06666667 0.07666667 0.09333333 0.07       0.11
+ 0.08       0.08666667 0.07666667 0.11666667 0.08666667 0.08
+ 0.05666667 0.08333333 0.12666667 0.13666667 0.10333333 0.08666667
+ 0.22333333 0.04666667 0.09666667 0.09666667 0.07666667 0.08666667
+ 0.08666667 0.1        0.21666667 0.08333333 0.08333333 0.08666667
+ 0.14       0.10333333 0.08       0.08666667 0.08       0.09
+ 0.09333333 0.08       0.09333333 0.09333333 0.07333333 0.06666667
+ 0.07666667 0.1        0.10333333 0.07       0.09       0.08
+ 0.08666667 0.08       0.06333333 0.1        0.10333333 0.08
+ 0.12666667 0.15666667 0.11333333 0.08333333 0.1        0.08333333
+ 0.15666667 0.08333333 0.08333333 0.10333333]
+
+Convergence check
+-------------------
+Total steps:         3000      
+Burn steps:          2000      
+Evaluation steps:    1000                
+Evaluation samples:  10000               
+Autocorrelation times:
+	 parameter                      tau (in steps)       Chain length (in multiples of tau)
+	 flare_tpeak_1                  34.14352272276285    29.288131986841492  
+	 flare_fwhm_1                   38.1292618772281     26.226576407901273  
+	 flare_ampl_1                   35.882629751340204   27.86863746971194   
+	 ln_err_flux_TIC_1403938        30.050411847934857   33.2774141352982    
+
+Not yet converged! Some chains are less than 30x the autocorrelation length. Please continue to run with longer chains, or start again with more walkers.
+
