@@ -6,3 +6,13 @@
 5) Flare_566801.ipynb :- FT and LS on file 'flare566801.fits'
 6) Download_flare_lk.ipnb :- TIC_1403938 flare plot using lightkurve
 7) TIC_1403938 (Folder):- trials of allesfitter
+8) TIC_1403938 (2nd_trial) :- 2nd trial on TIC 1403938
+9) 08_stellar_flares :- original (from the website)
+10) TIC_233547261
+11) TIC_271698144 
+12) TIC_279494336
+13) TIC_353898013
+14) TIC_393804343 
+15) TIC_455825451
+16) Download_flare_lk.ipy :- Code for downloading flare from lightkurve
+17) Download_flares.ipynb :- Use this code for selecting only falres from lightcurves
