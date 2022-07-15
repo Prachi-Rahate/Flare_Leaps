@@ -1,0 +1,20 @@
+
+allesfitter version
+---------------------
+v1.2.9
+
+Convergence check
+-------------------
+Total steps:         3000      
+Burn steps:          2000      
+Evaluation steps:    1000                
+Evaluation samples:  10000               
+Autocorrelation times:
+	 parameter                      tau (in steps)       Chain length (in multiples of tau)
+	 flare_tpeak_1                  17.371759313726876   57.56469347406952   
+	 flare_fwhm_1                   19.6746189768512     50.82690552617979   
+	 flare_ampl_1                   23.33040465786778    42.86252273223075   
+	 ln_err_flux_TIC_233547261__flare1 24.734668518987068   40.42908435309615   
+
+Succesfully converged! All chains are at least 30x the autocorrelation length.
+

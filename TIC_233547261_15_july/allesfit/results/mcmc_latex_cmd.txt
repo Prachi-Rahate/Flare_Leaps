@@ -1,0 +1,4 @@
+\newcommand{\flaretpeakone}{$1699.55260_{-0.00011}^{+0.00012}$} %flare_tpeak_1$=1699.55260_{-0.00011}^{+0.00012}$ days
+\newcommand{\flarefwhmone}{$0.00627_{-0.00035}^{+0.00038}$} %flare_fwhm_1$=0.00627_{-0.00035}^{+0.00038}$ days
+\newcommand{\flareamplone}{$0.2523\pm0.0097$} %flare_ampl_1$=0.2523\pm0.0097$ rel. flux
+\newcommand{\lnerrfluxTICtwothreethree547two6oneflareone}{$-4.470\pm0.026$} %$\log{\sigma_\mathrm{TIC_233547261_flare1.csv}}=-4.470\pm0.026$ log rel. flux

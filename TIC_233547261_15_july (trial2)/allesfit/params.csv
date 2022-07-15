@@ -1,0 +1,10 @@
+#name,value,fit,bounds,label,unit,truth
+#flares,,,,,,
+flare_tpeak_1,1699.55,1,uniform 1699.1 1699.8,flare_tpeak_1,days,#0.32
+flare_fwhm_1,0.006,1,uniform 0 0.05,flare_fwhm_1,days,#0.03958333333333333
+flare_ampl_1,0.24,1,uniform 0.2 0.34,flare_ampl_1,rel. flux,#0.012
+flare_tpeak_2,1699.5512,1,uniform 1699.5350 1699.5550,flare_tpeak_2,days,#.73
+flare_fwhm_2,0.006,1,uniform 0.002 0.1,flare_fwhm_2,days,#0.06041666666666667
+flare_ampl_2,0.15,1,uniform 0.1 0.3,flare_ampl_2,rel. flux,#0.007
+#errors (overall scaling) per instrument,,,,,,
+log_err_flux_TIC_233547261_flare1,-5,1,uniform -7 -2,$\log{\sigma_\mathrm{TIC_233547261_flare1.csv}}$,log rel. flux,NaN

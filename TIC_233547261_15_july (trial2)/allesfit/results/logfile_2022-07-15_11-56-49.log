@@ -1,0 +1,95 @@
+
+allesfitter version
+---------------------
+v1.2.9
+
+Convergence check
+-------------------
+Total steps:         3000      
+Burn steps:          2000      
+Evaluation steps:    1000                
+Evaluation samples:  10000               
+Autocorrelation times:
+	 parameter                      tau (in steps)       Chain length (in multiples of tau)
+	 flare_tpeak_1                  61.992786962599055   16.13090891692466   
+	 flare_fwhm_1                   67.66865071880086    14.777891821066898  
+	 flare_ampl_1                   71.38730172520945    14.008093538109785  
+	 flare_tpeak_2                  65.64210883435209    15.234123609945268  
+	 flare_fwhm_2                   64.40457413286127    15.526847486594404  
+	 flare_ampl_2                   68.68600810399508    14.559005940277313  
+	 ln_err_flux_TIC_233547261_flare1 51.827464745452914   19.294789064281503  
+
+Not yet converged! Some chains are less than 30x the autocorrelation length. Please continue to run with longer chains, or start again with more walkers.
+
+File "params_star.csv" not found. Cannot derive final parameters.
+
+Performing diagnostic tests on the fit's residuals...
+
+Anderson-Darling Test
+---------------------
+This tests the null hypothesis that the residuals follows a normal distribution.
+Test statistic		 0.26062716798256247
+Critical values		 [0.561 0.639 0.767 0.894 1.064]
+Significance levels	 [0.15  0.1   0.05  0.025 0.01 ]
+Does the null hypotheses hold at a significance level of...
+... 0.15 		 True
+... 0.1 		 True
+... 0.05 		 True
+... 0.025 		 True
+... 0.01 		 True
+The null hypothesis cannot be rejected.
+In simple words: your residuals look good.
+
+
+Augmented Dickey-Fuller Test
+----------------------------
+This tests the null hypothesis that the residuals show non-stationarity (trends).
+Test Statistic         -1.058716e+01
+P-Value                 6.670790e-19
+# Lags Used             0.000000e+00
+# Observations Used     1.430000e+02
+Critical Value (1%)    -3.476927e+00
+Critical Value (5%)    -2.881973e+00
+Critical Value (10%)   -2.577665e+00
+Is the time series stationary? True
+In simple words: your residuals look good.
+
+
+Durbin-Watson Test
+------------------
+This tests the null hypothesis that there is no correlation among the residuals.
+Test statistic: 1.7710014135905587
+The test statistic is approximately equal to 2*(1-r) where r is the sample autocorrelation of the residuals. Interpretation:
+	< 1.5 suggests a positive correlation
+	1.5 to 2.5 suggests no correlation
+	> 2.5 suggests a negative correlation
+No signs of a correlation.
+In simple words: your residuals look good.
+
+
+Ljung-Box Test
+--------------
+This tests the null hypothesis that there is no correlation among the residuals.
+Does the null hypotheses hold at a significance level of...
+ lag   lb_stat  lb_pvalue  0.15   0.1  0.05  0.025  0.01
+   1  1.920208   0.165834  True  True  True   True  True
+   5 10.602239   0.059862 False False  True   True  True
+  10 16.549402   0.084948 False False  True   True  True
+  15 31.212899   0.008226 False False False  False False
+  20 48.758541   0.000333 False False False  False False
+The null hypothesis is rejected at some significance levels.
+In simple words: there might still be some structure in your residuals.
+
+
+Summary
+-------
+Test                    Passed?
+Anderson-Darling        True
+Augmented Dickey-Fuller True
+Durbin-Watson           True
+Ljung-Box               False
+
+Orbital plots could not be produced.
+
+Done. For all outputs, see allesfit/results 
+
