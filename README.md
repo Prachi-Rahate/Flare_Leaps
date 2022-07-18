@@ -16,3 +16,5 @@
 15) TIC_455825451
 16) Download_flare_lk.ipy :- Code for downloading flare from lightkurve
 17) Download_flares.ipynb :- Use this code for selecting only falres from lightcurves
+18) TIC_1403938_(4th_trial)_with_2 :- trial with residuals and lomb scargle
+19) TIC_1403938_LS_18_july:- final jupyter notebook for residuals and lomb scargle
