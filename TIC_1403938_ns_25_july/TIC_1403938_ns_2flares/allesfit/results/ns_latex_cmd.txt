@@ -1,0 +1,7 @@
+\newcommand{\flaretpeakone}{$1518.835448_{-0.000098}^{+0.000084}$} %flare_tpeak_1$=1518.835448_{-0.000098}^{+0.000084}$ days
+\newcommand{\flarefwhmone}{$0.00537_{-0.00031}^{+0.00029}$} %flare_fwhm_1$=0.00537_{-0.00031}^{+0.00029}$ days
+\newcommand{\flareamplone}{$1.933_{-0.059}^{+0.055}$} %flare_ampl_1$=1.933_{-0.059}^{+0.055}$ rel. flux
+\newcommand{\flaretpeaktwo}{$1518.84374_{-0.00040}^{+0.00035}$} %flare_tpeak_2$=1518.84374_{-0.00040}^{+0.00035}$ days
+\newcommand{\flarefwhmtwo}{$0.01640\pm0.00099$} %flare_fwhm_2$=0.01640\pm0.00099$ days
+\newcommand{\flareampltwo}{$0.895_{-0.040}^{+0.047}$} %flare_ampl_2$=0.895_{-0.040}^{+0.047}$ rel. flux
+\newcommand{\lnerrfluxTICone40three9three8}{$-3.382\pm0.062$} %$\log{\sigma_\mathrm{TIC_1403938}}=-3.382\pm0.062$ log rel. flux
