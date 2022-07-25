@@ -3,9 +3,9 @@
 flare_tpeak_1,1518.835,1,uniform 1518.825 1518.875,flare_tpeak_1,days,#0.32
 flare_fwhm_1,0.005,1,uniform 0 0.1,flare_fwhm_1,days,#0.03958333333333333
 flare_ampl_1,1.92,1,uniform 1.5 2.5,flare_ampl_1,rel. flux,#0.012
-flare_tpeak_2,1518.843,1,uniform 1518.830 1518.850,flare_tpeak_2,days,0.73
-flare_fwhm_2,0.016,1,uniform 0 0.1,flare_fwhm_2,days,0.06041666666666667
-flare_ampl_2,0.9,1,uniform 0.5 1.5,flare_ampl_2,rel. flux,0.007
+#flare_tpeak_2,1518.843,1,uniform 1518.830 1518.850,flare_tpeak_2,days,0.73
+#flare_fwhm_2,0.016,1,uniform 0 0.1,flare_fwhm_2,days,0.06041666666666667
+#flare_ampl_2,0.9,1,uniform 0.5 1.5,flare_ampl_2,rel. flux,0.007
 #flare_tpeak_3,1518.863,1,uniform 1518.858 1518.880,flare_tpeak_3,days,0.73
 #flare_fwhm_3,0.002,1,uniform 0.0 0.01,flare_fwhm_3,days,0.06041666666666667
 #flare_ampl_3,0.067,1,uniform 0.0 1.0,flare_ampl_3,rel. flux,0.007
