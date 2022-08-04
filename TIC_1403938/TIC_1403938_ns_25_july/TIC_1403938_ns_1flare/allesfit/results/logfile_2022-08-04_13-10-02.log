@@ -1,0 +1,81 @@
+
+allesfitter version
+---------------------
+v1.2.10
+
+Results:
+----------
+log(Z) = 139.63725421771375 +- 0.09499527446227651
+Nr. of posterior samples: 17207
+
+No values available to be derived.
+
+Performing diagnostic tests on the fit's residuals...
+
+Anderson-Darling Test
+---------------------
+This tests the null hypothesis that the residuals follows a normal distribution.
+Test statistic		 19.253735090342815
+Critical values		 [0.561 0.639 0.766 0.894 1.063]
+Significance levels	 [0.15  0.1   0.05  0.025 0.01 ]
+Does the null hypotheses hold at a significance level of...
+... 0.15 		 False
+... 0.1 		 False
+... 0.05 		 False
+... 0.025 		 False
+... 0.01 		 False
+The null hypothesis is rejected at some significance levels.
+In simple words: there might still be some structure in your residuals.
+
+
+Augmented Dickey-Fuller Test
+----------------------------
+This tests the null hypothesis that the residuals show non-stationarity (trends).
+Test Statistic           -5.565101
+P-Value                   0.000002
+# Lags Used               2.000000
+# Observations Used     139.000000
+Critical Value (1%)      -3.478294
+Critical Value (5%)      -2.882568
+Critical Value (10%)     -2.577983
+Is the time series stationary? True
+In simple words: your residuals look good.
+
+
+Durbin-Watson Test
+------------------
+This tests the null hypothesis that there is no correlation among the residuals.
+Test statistic: 0.869541981930333
+The test statistic is approximately equal to 2*(1-r) where r is the sample autocorrelation of the residuals. Interpretation:
+	< 1.5 suggests a positive correlation
+	1.5 to 2.5 suggests no correlation
+	> 2.5 suggests a negative correlation
+Signs of a positive correlation.
+In simple words: there might still be some structure in your residuals.
+
+
+Ljung-Box Test
+--------------
+This tests the null hypothesis that there is no correlation among the residuals.
+Does the null hypotheses hold at a significance level of...
+ lag   lb_stat    lb_pvalue  0.15   0.1  0.05  0.025  0.01
+   1 46.306278 1.011394e-11 False False False  False False
+   5 55.621955 9.721666e-11 False False False  False False
+  10 59.433688 4.637782e-09 False False False  False False
+  15 67.895355 1.056111e-08 False False False  False False
+  20 77.988411 8.594795e-09 False False False  False False
+The null hypothesis is rejected at some significance levels.
+In simple words: there might still be some structure in your residuals.
+
+
+Summary
+-------
+Test                    Passed?
+Anderson-Darling        False
+Augmented Dickey-Fuller True
+Durbin-Watson           False
+Ljung-Box               False
+
+Orbital plots could not be produced.
+
+Done. For all outputs, see allesfit/results

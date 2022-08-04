@@ -2,7 +2,7 @@ parameter & value & unit & fit/fixed \\
 \hline 
 \multicolumn{4}{c}{\textit{Fitted parameters}} \\ 
 \hline 
-flare_tpeak_1 & $1518.83750_{-0.00020}^{+0.00021}$ & days& fit \\ 
-flare_fwhm_1 & $0.01247_{-0.00075}^{+0.00080}$ & days& fit \\ 
-flare_ampl_1 & $2.022\pm0.059$ & rel. flux& fit \\ 
-$\log{\sigma_\mathrm{TIC_1403938}}$ & $-2.487_{-0.057}^{+0.062}$ & log rel. flux& fit \\ 
+flare_tpeak_1 & $1518.83749_{-0.00020}^{+0.00022}$ & days& fit \\ 
+flare_fwhm_1 & $0.01248\pm0.00079$ & days& fit \\ 
+flare_ampl_1 & $2.022\pm0.061$ & rel. flux& fit \\ 
+$\log{\sigma_\mathrm{TIC_1403938}}$ & $-2.487_{-0.058}^{+0.061}$ & log rel. flux& fit \\ 
